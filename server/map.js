@@ -37,18 +37,3 @@ const newNumeros = numeros.map(numero => numero * 2);
 console.log(newNumeros);
 
 //  Clase 6 Calcula y agrega una nueva propiedad en un Array
-
-solution([
-    {
-      name: "Product 1",
-      price: 1000,
-      stock: 10
-    },
-    {
-      name: "Product 2",
-      price: 2000,
-      stock: 20
-    },
-  ]);
-
-//   const newTaxe = 
