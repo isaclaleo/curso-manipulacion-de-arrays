@@ -17,7 +17,7 @@
         ];
         const app = document.getElementById('app');
         products.forEach(products => {
-            app.innerHeight += `<li>${products.title} - ${products.precio}</li>`
+            app.innerHTML += `<li>${products.title} - ${products.precio}</li>`
         });
     </script>
 </body>

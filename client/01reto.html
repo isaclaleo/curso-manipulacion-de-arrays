@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto</title>
+</head>
+<body>
+    <div id="reto">
+        <h1>Tareas</h1>
+    </div>
+    <script>
+        const task = [
+            {task: 'Play', status: 'Done'},
+            {task: 'Homework', status: 'Incomplete'},
+            {task: 'Eat', status: 'Done'},
+            {task: 'Wacth TV', status: 'Incomplete'},
+            {task: 'Listen Music', status: 'Done'},
+        ];
+
+        const reto = document.getElementById('reto');
+
+        task.forEach(task => {
+            reto.innerHTML += `<ul><li>${task.task} - ${task.status}<input type="checkbox"></li></ul>`
+        });
+    </script>
+    <ul><li><input type="checkbox"></li></ul>
+</body>
+</html>
