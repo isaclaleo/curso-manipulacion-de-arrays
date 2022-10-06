@@ -21,9 +21,13 @@ console.log('rpt', rpt);
 const tres = [1, 1, 1];
 const catorce = [2, 4, 8];
 
+// con una funcion 
 function funsuma(tres) {
     return tres.reduce((sum, item) => sum + item, 0);
 }
+// Sin funcion 
+const tresss = tres.reduce((suma, item) => suma + item, 0);
+const catorcess = catorce.reduce((suma, item) => suma + item, 0);
 
 const tress = funsuma(tres);
 const catorces = funsuma(catorce);
