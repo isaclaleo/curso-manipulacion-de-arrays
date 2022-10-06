@@ -38,3 +38,19 @@ const search = (query) => {
 
 console.log(search('the'));
 
+
+// Reto CLASE 9
+
+// const reto = ['amor', 'sol', 'piedra', 'día']
+
+// const re = reto.filter(item => item.length >= 4);
+// console.log('reto', reto);
+// console.log('ret', re);
+
+function funt(reto) {
+    return reto.filter(item => item.length >= 4)
+}
+const nam = funt(reto);
+console.log('funtion', nam);
+
+const reto = ['amor', 'sol', 'piedra', 'día'];
