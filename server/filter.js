@@ -38,4 +38,3 @@ const search = (query) => {
 
 console.log(search('the'));
 
-
