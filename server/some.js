@@ -30,3 +30,8 @@ const ordes = [
 const order = ordes.some(item => item.dileveri);
 console.log('ordes',order)
 
+// some
+const dates = [
+    {}
+]
+
