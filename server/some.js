@@ -75,11 +75,20 @@ console.log('dates',isOverlap(newAppointment));
 const retoTrue = [1, 3, 5, 7, 10, 11];
 const retoFalse = [1, 3, 5];
 
+// Con function
 function funtsome(retoTrue) {
     return retoTrue.some(item => item % 2 === 0);
 }
 
+//Con una sola linea
+const retoss = retoTrue.some(item => item % 2 === 0);
+const retosss = retoFalse.some(item => item % 2 === 0);
+
+
 const retoT = funtsome(retoTrue);
 const retoF = funtsome(retoFalse)
-console.log('True',retoT);
-console.log('Flase', retoF);
+console.log('Reto True',retoT);
+console.log('Reto Flase', retoF);
+// emprime con una sola linea
+console.log('Reto true', retoss);
+console.log('Reto flase', retosss);
