@@ -69,4 +69,3 @@ const isOverlap = (newDate) => {
     })
 }
 console.log('dates',isOverlap(newAppointment));
-
