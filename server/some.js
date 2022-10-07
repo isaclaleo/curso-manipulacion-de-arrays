@@ -1,6 +1,6 @@
 // El método somees inmutable y consiste retornar un valor lógico verdadero si existe al menos un elemento que cumpla la condición establecida en la función (callback).
 
-// some solo imprime si es true or false
+// some solo imprime si es true or false dependiendo de la condicion;
 
 const number = [1,2,3,6,5,6,3,2,4,6,5];
 
