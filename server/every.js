@@ -70,3 +70,30 @@ const retos = age.every(age => {
 });
 console.log('Reto', retos);
 console.log('metodo', edad);
+
+// Reto 16 
+
+const retoT = [2, 4, 6, 8, 10];
+const retoF = [1, 3, 5, 7, 10, 11];
+const retoFalse = [1, 3, 5];
+
+// con function
+function funtevery(retoT) {
+        return retoT.every(i => i % 2 == 0);
+};
+
+const retoTrue = funtevery(retoT);
+const retoFalse1 = funtevery(retoF);
+const retoFalse2 =funtevery(retoFalse);
+
+console.log('Reto true ', retoTrue);
+console.log('Reto false', retoFalse1);
+console.log('Reto false', retoFalse2);
+
+//  en un metodo una linea 
+const retoevery = retoT.every(item => item % 2 == 0);
+const retoever = retoF.every(item => item % 2 == 0);
+const retoeve = retoFalse.every(item => item % 2 == 0);
+console.log('metodo una linea', retoevery);
+console.log('metodo una linea', retoever);
+console.log('metodo una linea', retoeve);
