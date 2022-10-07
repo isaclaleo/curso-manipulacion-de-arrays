@@ -19,3 +19,25 @@ const findPet = pets.includes('leon');
 
 console.log('con for', includeArrays);
 console.log('includes', findPet);
+
+
+// Clase 19 Reto Falta completarlo
+
+const solution1 = ["Ana lava la tina", "ana"];
+const solution2 = ["Santiago", "tiago"];
+const solution3 = ["Nicolas", "ana"];
+
+
+function searhana(solution1, query) {
+    const rest =  solution1.filter(item =>{
+        return item.includes(query);
+    });
+    return rest;
+};
+// const findInclude = funtincludes(solution1);
+// const findInclud = funtincludes(solution2);
+// const findInclu = funtincludes(solution3);
+
+console.log(searhana('ana'));
+console.log('Encuntra true 2' );
+console.log('Encuntra false 3');
