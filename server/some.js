@@ -32,30 +32,30 @@ console.log('ordes',order)
 
 // some
 const dates = [{
-    starDate: new Date(2022, 1, 1, 10),
-    endDate: new Date(2022, 1, 1, 12, 11),
+    starDate: new Date(2022, 1, 1),
+    endDate: new Date(2022, 1, 1),
     titile: 'cita de trabajo',
 },
 {
-    starDate: new Date(2022, 1, 1, 12),
-    endDate: new Date(2022, 1, 1, 13, 13),
+    starDate: new Date(2022, 1, 1),
+    endDate: new Date(2022, 1, 1),
     titile: 'cita de trabajo',
 },
 {
-    starDate: new Date(2022, 1, 1, 14),
-    endDate: new Date(2022, 1, 1, 14, 15),
+    starDate: new Date(2022, 1, 1),
+    endDate: new Date(2022, 1, 1),
     titile: 'cita de trabajo',
 },
 {
-    starDate: new Date(2022, 1, 1, 16),
-    endDate: new Date(2022, 1, 1, 15, 17),
+    starDate: new Date(2022, 1, 1),
+    endDate: new Date(2022, 1, 1),
     titile: 'cita de trabajo',
 }
 ]
 
 const newAppointment = {
-    starDate: new Date(2022, 1, 1, 19),
-    endDate: new Date(2022, 1, 1, 16, 20),
+    starDate: new Date(2022, 1, 4),
+    endDate: new Date(2022, 1, 5),
 };
 
 var areIntervalsOverlapping = require('date-fns/areIntervalsOverlapping');
@@ -68,4 +68,5 @@ const isOverlap = (newDate) => {
         )
     })
 }
+console.log('dates',isOverlap(newAppointment));
 
