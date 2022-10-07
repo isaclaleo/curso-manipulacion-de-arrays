@@ -69,3 +69,17 @@ const isOverlap = (newDate) => {
     })
 }
 console.log('dates',isOverlap(newAppointment));
+
+// Clase 14 Reto 
+
+const retoTrue = [1, 3, 5, 7, 10, 11];
+const retoFalse = [1, 3, 5];
+
+function funtsome(retoTrue) {
+    return retoTrue.some(item => item % 2 === 0);
+}
+
+const retoT = funtsome(retoTrue);
+const retoF = funtsome(retoFalse)
+console.log('True',retoT);
+console.log('Flase', retoF);
