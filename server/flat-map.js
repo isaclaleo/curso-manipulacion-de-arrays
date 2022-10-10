@@ -60,3 +60,21 @@ const  calendario = Object.values(calendars).flatMap(item => {
     return item.map(date => date.title);
 });
 console.log(calendario);
+
+// Clase 25 Reto 
+
+const solutions = [
+    "Beautiful is better than ugly",
+    "Explicit is better than implicit",
+    "Simple is better than complex",
+    "Complex is better than complicated",
+];
+
+// con funtion 
+function reto(solutions) {
+        const lineas = solutions.flatMap(word => word.split(' '));
+        return lineas.length;
+};
+
+const retos = reto(solutions);
+console.log('Letras & numeros', retos);
