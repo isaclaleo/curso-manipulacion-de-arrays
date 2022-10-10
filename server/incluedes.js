@@ -34,7 +34,7 @@ function searhana(solution1, query) {
     });
     return rest;
 };
-// const findInclude = funtincludes(solution1);
+const findInclude = searhana(solution1);
 // const findInclud = funtincludes(solution2);
 // const findInclu = funtincludes(solution3);
 
