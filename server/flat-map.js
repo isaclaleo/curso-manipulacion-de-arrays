@@ -59,7 +59,7 @@ const calendars ={
 const  calendario = Object.values(calendars).flatMap(item => {
     return item.map(date => date.title);
 });
-console.log(calendario);
+console.log('Reto de calendario',calendario);
 
 // Clase 25 Reto 
 
@@ -78,3 +78,17 @@ function reto(solutions) {
 
 const retos = reto(solutions);
 console.log('Letras & numeros', retos);
+
+// 
+const letras = solutions.flatMap(words =>{ 
+    return words.split(' ');
+
+});
+console.log('una linea', letras);
+
+
+
+// una linea contando el total de espacios por el split de  cada una de los arrays
+// const letras = solutions.flatMap(words => {
+//     return words.split(' ').join(' ').length;
+// });
