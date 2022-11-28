@@ -97,3 +97,72 @@ const retoeve = retoFalse.every(item => item % 2 == 0);
 console.log('metodo una linea', retoevery);
 console.log('metodo una linea', retoever);
 console.log('metodo una linea', retoeve);
+
+// Metodo SHIFT()
+// Elimina el primero del array
+const gamerShift = ['fidel', 'isac', 'luis', 'Erik' ];
+gamerShift.shift();
+console.log(gamerShift);
+// ouput [ 'isac', 'luis', 'Erik' ]
+
+// Metodo UNSHIFT()
+// Agrega un elemento al inicio del array y devuelve la longitud del array
+const gamerUnshift = ['fidel', 'isac', 'luis', 'Erik' ];
+gamerUnshift.unshift('Lalo');
+console.log(gamerUnshift);
+// output [ 'Lalo', 'fidel', 'isac', 'luis', 'Erik' ]
+
+// Metodo SLICE()
+// Devuelve una copia del array y la parte que se pide
+const gamerSlice = ['q', 'w', 'e', 'r', '1', '2', '3', '4'];
+const slicegame =  gamerSlice.slice(0,5);
+console.log(slicegame);
+// Output [ 'q', 'w', 'e', 'r', '1' ]
+
+// Metodo SPLICE()
+// Devuelve un array eliminando elementos y/o  agregando 
+const gameSplice = ['q', 'w', 'e', 'r', '1', '2', '3', '4'];
+const spliceGame = gameSplice.splice(2,5, 'New Array')
+console.log(gameSplice);
+// Output [ 'q', 'w', 'New Array', '4' ]
+
+
+// Metodo Fill
+// Cambia los elementos del array por un valor estatico desde del indice de inicio hasta el indice del final Retorna el array final
+const gameFill = ['q', 'w', 'e', 'r', '1', '2', '3', '4'];
+const fillGame = gameFill.fill(1, 3);
+const filGame = gameFill.fill(2, 4, 6);
+console.log(fillGame);
+console.log(filGame);
+// Output ['q', 'w', 'e', 1, 2,   2,   1,   1]
+// Output ['q', 'w', 'e', 1, 2,   2,   1,   1]
+
+// Metodo PUSH()
+// Añade un o mas alementos al array y cuenta elemtos del nuevo array
+const gamePush = ['q', 'w', 'e', 'r', '1', '2', '3', '4'];
+const pushGame = gamePush.push('new');
+gamePush.push('new array');
+console.log(pushGame);
+console.log(gamePush);
+// Output 9 [ 'q', 'w', 'e', 'r', '1', '2', '3', '4', 'new', 'new array' ]
+
+// Metod POP()
+// Elimina el ultimo elemento del array
+const gamePop = ['q', 'w', 'e', 'r', '1', '2', '3', '4'];
+gamePop.pop();
+console.log(gamePop);
+// Output ['q', 'w', 'e', 'r', '1', '2','3']
+
+// Metodo REVERSE()
+// Invierte el order del array del primero al ultimo y viseversa 
+const gameReverse = ['q', 'w', 'e', 'r', '1', '2', '3', '4'];
+const reverseGame = gameReverse.reverse();
+console.log(reverseGame);
+// Output ['4', '3', '2', '1', 'r', 'e','w', 'q'];
+
+// Metodo LASTINDEXOF();
+// Busca un elemento en un arrays y devuelve la posicion comienza desde el fina  y si no lo encuentr retorna -1
+const gameLastindexof = ['q', 'w', 'e', 'r', '1', '2', '3', '4'];
+const lastGmae = gameLastindexof.lastIndexOf('e');
+console.log(lastGmae);
+// Output 2
